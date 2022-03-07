@@ -7,6 +7,7 @@
   outline: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 /* Color => Dark: #2f2c44   / Regular: #423e60  / Light: #8e89b3   */
 
@@ -93,12 +94,15 @@ a:hover {
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75 rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
+  border-color: transparent;
 }
 .btn-primary {
   background: var(--color-primary);
@@ -123,7 +127,7 @@ img {
 }
 /* Media QUERIES (SMALL Devices)  */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
