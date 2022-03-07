@@ -39,7 +39,7 @@ header {
 
 /*  ME   */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(to top, #000066 0%, #660033 45%, transparent);
   width: 22rem;
   height: 22rem;
   position: absolute;
@@ -56,4 +56,25 @@ header {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+/* Media QUERIES (MEDIUM Devices)  */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* Media QUERIES (SMALL Devices)  */
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }
