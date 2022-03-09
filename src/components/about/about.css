@@ -34,7 +34,7 @@
 }
 
 .about__card {
-  background: linear-gradient(to right, #000066 45%, #660033 100%);
+  background: #0077ff;
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
@@ -47,7 +47,7 @@
   cursor: default;
 }
 .about__icon {
-  color: #33ccff;
+  color: #00bfff;
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
