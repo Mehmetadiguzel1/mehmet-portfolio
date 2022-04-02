@@ -15,9 +15,13 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>UI/UX Design with Figma </p>
             </li>
             <li>
+              <BsCheck2All className="service__list-icon" />
+              <p>UI/UX Design with Adobe XD</p>
+            </li>
+            {/* <li>
               <BsCheck2All className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
             </li>
@@ -28,11 +32,7 @@ const Services = () => {
             <li>
               <BsCheck2All className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
@@ -43,9 +43,21 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Personal Website</p>
             </li>
             <li>
+              <BsCheck2All className="service__list-icon" />
+              <p>E-commerce Website</p>
+            </li>
+            <li>
+              <BsCheck2All className="service__list-icon" />
+              <p>Special Blog</p>
+            </li>
+            <li>
+              <BsCheck2All className="service__list-icon" />
+              <p>Admin Panel</p>
+            </li>
+            {/* <li>
               <BsCheck2All className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
             </li>
@@ -56,19 +68,7 @@ const Services = () => {
             <li>
               <BsCheck2All className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
@@ -79,24 +79,24 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Youtube Content</p>
             </li>
             <li>
               <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Facebook Content</p>
             </li>
             <li>
               <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Instagram Content</p>
             </li>
             <li>
               <BsCheck2All className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Twitter Content</p>
             </li>
-            <li>
+            {/* <li>
               <BsCheck2All className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
       </div>

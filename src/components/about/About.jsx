@@ -21,24 +21,30 @@ const About = () => {
             <article className="about__card">
               <RiAwardLine className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working Experience</small>
+              <small>3+ Years Working Experience</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>50+ Worldwide</small>
+              <small>20+ Worldwide</small>
             </article>
             <article className="about__card">
               <MdOutlineFolderShared className="about__icon" />
               <h5>Projects</h5>
-              <small>40+ Completed Projects</small>
+              <small>20+ Completed Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            officiis nam assumenda vel corporis sapiente autem labore. Maxime,
-            omnis dolorem tenetur suscipit est quibusdam, nesciunt accusantium
-            nostrum eos similique dolore.
+            I am courteous and enthusiastic about IT and everything that
+            revolves around it. Web development and design, such as making apps,
+            UI/UX design and creating websites, have recently piqued my
+            interest. I acquired expertise working in this field after being
+            invited to join a friend's start-up firm as a front-end developer.
+            I'm interested in gaining additional experience in this profession
+            because it complements my academics. As a result, I'm seeking a firm
+            that would provide me with a position among its developers. In
+            exchange, I would give you my whole attention and be a nice and
+            courteous member of your team.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

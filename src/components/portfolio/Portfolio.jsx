@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/mobile-work.png";
-import IMG2 from "../../assets/mobile-work2.png";
+import IMG1 from "../../assets/MobileApp.png";
+import IMG2 from "../../assets/Walet.png";
 import IMG3 from "../../assets/mobile-work3.jpg";
 import IMG4 from "../../assets/mobile-work4.jpg";
 import IMG5 from "../../assets/mobile-work5.jpg";
@@ -16,10 +16,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is my portfolio item title</h3>
+          <h3>Movie Application</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Mehmetadiguzel1"
+              href="https://dribbble.com/shots/17758002-MovieApp/attachments/12923927?mode=media"
               className="btn"
               target="_blank"
             >
@@ -39,10 +39,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is my portfolio item title</h3>
+          <h3>Wallet Application</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Mehmetadiguzel1"
+              href="https://dribbble.com/shots/17771729-WalletApp/attachments/12938946?mode=media"
               className="btn"
               target="_blank"
             >
@@ -62,7 +62,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is my portfolio item title</h3>
+          <h3>Weather Application</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Mehmetadiguzel1"
@@ -85,7 +85,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is my portfolio item title</h3>
+          <h3>Construction Application</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Mehmetadiguzel1"
@@ -108,7 +108,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This is my portfolio item title</h3>
+          <h3>The Bank Application</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Mehmetadiguzel1"
